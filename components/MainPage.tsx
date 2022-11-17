@@ -46,10 +46,10 @@ function MainPage({}: Props) {
               Menu 5
             </p>
           </div>
-          <div>Content</div>
+          <div></div>
         </div>
       </div>
-      <div className="bg-black h-36"></div>
+      <div className="bg-black h-28"></div>
     </div>
   );
 }
