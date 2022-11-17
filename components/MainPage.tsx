@@ -9,7 +9,10 @@ function MainPage({}: Props) {
     <div className="h-screen flex flex-col">
       <div className="flex flex-row h-full w-full">
         <div className="w-1/3 bg-black text-white text-3xl pt-5">
-          <h1 className="pl-5 md:pl-10 xl:pl-20"> Softbase s.r.o.</h1>
+          <h1 className="pl-5 text-sm md:pl-10 md:text-2xl xl:pl-20 xl:text-4xl">
+            {" "}
+            Softbase s.r.o.
+          </h1>
           <div className="flex flex-row h-full items-center">
             <div className="absolute flex h-[60%] w-full">
               <div className="w-1/2 my-auto">
@@ -45,11 +48,15 @@ function MainPage({}: Props) {
             <p className="text-gray-300 pt-10 px-5 bg-black hover:bg-blue-700">
               Home
             </p>
-            <p className="text-gray-300 pt-10 px-5 hover:bg-blue-700">Menu 2</p>
-            <p className="text-gray-300 pt-10 px-5 hover:bg-blue-700">Menu 3</p>
-            <p className="text-gray-300 pt-10 px-5 hover:bg-blue-700">Menu 4</p>
+            <p className="text-gray-300 pt-10 px-5 hover:bg-blue-700">O nás</p>
+            <p className="text-gray-300 pt-10 px-5 hover:bg-blue-700">
+              Projekty
+            </p>
+            <p className="text-gray-300 pt-10 px-5 hover:bg-blue-700">
+              Techstack
+            </p>
             <p className="text-gray-300 pt-10 pl-5 pr-24 hover:bg-blue-700">
-              Menu 5
+              Kontakt
             </p>
           </div>
           <div></div>
