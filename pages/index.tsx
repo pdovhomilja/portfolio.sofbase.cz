@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import MainPage from "../components/MainPage";
 
 export default function Home() {
   return (
@@ -9,6 +10,9 @@ export default function Home() {
         <meta name="description" content="" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <section>
+        <MainPage></MainPage>
+      </section>
     </div>
   );
 }
