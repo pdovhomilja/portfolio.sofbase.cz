@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { motion } from "framer-motion";
+import Footer from "./Footer";
 
 type Props = {};
 
@@ -63,11 +64,7 @@ function Contact({}: Props) {
           <div className="w-1/2 border"></div>
         </div>
       </div>
-      <div className="h-28 bg-black">
-        <Link href="#Home" className="">
-          <p className="text-white">Home</p>
-        </Link>
-      </div>
+      <Footer />
     </motion.div>
   );
 }

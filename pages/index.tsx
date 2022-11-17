@@ -8,7 +8,7 @@ import Skill from "../components/Skill";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-slate-500/10 scrollbar-thumb-yellow-600/40">
       <Head>
         <title>SoftBase portfolio</title>
         <meta name="description" content="" />

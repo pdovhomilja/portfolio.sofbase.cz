@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import Navbar from "./Navbar";
 
 type Props = {};
 
@@ -49,38 +50,7 @@ function MainPage({}: Props) {
           </div>
         </div>
         <div className="w-2/3 bg-gradient-to-r from-gray-800 to-stone-900">
-          <div className="md:flex md:flex-row w-full h-24 justify-end">
-            <Link
-              className="text-gray-300 pt-10 px-5 bg-black hover:bg-blue-700"
-              href="/"
-            >
-              <p>Home</p>
-            </Link>
-            <Link
-              href="#AboutUs"
-              className="text-gray-300 pt-10 px-5 hover:bg-blue-700"
-            >
-              <p>O nás</p>
-            </Link>
-            <Link
-              href="#Projects"
-              className="text-gray-300 pt-10 px-5 hover:bg-blue-700"
-            >
-              <p>Projekty</p>
-            </Link>
-            <Link
-              href="#Skills"
-              className="text-gray-300 pt-10 px-5 hover:bg-blue-700"
-            >
-              <p>Skill</p>
-            </Link>
-            <Link
-              href="#Contact"
-              className="text-gray-300 pt-10 px-5 hover:bg-blue-700"
-            >
-              <p>Kontakt</p>
-            </Link>
-          </div>
+          <Navbar />
           <div></div>
         </div>
       </div>

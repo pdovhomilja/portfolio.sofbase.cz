@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { motion } from "framer-motion";
+import Footer from "./Footer";
 
 type Props = {};
 
@@ -28,13 +29,9 @@ function AboutUs({}: Props) {
       </div>
       <div className="flex flex-row h-1/2">
         <div className="w-1/2 bg-gray-500 h-full">section 1</div>
-        <div className="w-1/2">section 2</div>
+        <div className="w-1/2 bg-white">section 2</div>
       </div>
-      <div className="h-28 bg-black">
-        <Link href="#Home">
-          <p className="text-white">Home</p>
-        </Link>
-      </div>
+      <Footer />
     </motion.div>
   );
 }
