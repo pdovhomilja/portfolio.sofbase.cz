@@ -2,6 +2,12 @@ import Link from "next/link";
 import React from "react";
 import { motion } from "framer-motion";
 import Footer from "./Footer";
+import {
+  EnvelopeIcon,
+  MapPinIcon,
+  PhoneIcon,
+} from "@heroicons/react/24/outline";
+import { SocialIcon } from "react-social-icons";
 
 type Props = {};
 
@@ -13,9 +19,9 @@ function Contact({}: Props) {
       transition={{ duration: 1.5 }}
       className="flex flex-col relative h-screen justify-evenly overflow-hidden"
     >
-      <div className="h-2/3 bg-black border">
+      <div className="h-2/3 bg-black">
         <p className="h-40"></p>
-        <div className="m-10 pt-10 border h-full">
+        <div className="m-10 pt-10 h-full">
           <div className="w-full flex flex-row">
             <div className="w-1/2 pl-10">
               <h1 className=" text-white text-2xl md:text-4xl xl:text-6xl">
@@ -49,19 +55,67 @@ function Contact({}: Props) {
         </div>
       </div>
       <div className="h-1/3 bg-gray-700 justify-center">
-        Section 2
         <div className="m-10 flex flex-row text-white">
-          <div className="flex flex-col w-1/2 border">
+          <div className="flex flex-col w-1/2 m-5 p-5">
             <h1>Logo</h1>
             <div>
-              <h1>Socials</h1>
-              <p>icons</p>
+              <div className="flex">
+                <div className="mr-2">
+                  <SocialIcon
+                    className="grayscale opacity-50"
+                    style={{ height: 30, width: 30 }}
+                    url="https://discord.gg/dovhomilja"
+                  />
+                </div>
+                <div className="mr-2">
+                  <SocialIcon
+                    className="grayscale opacity-50"
+                    style={{ height: 30, width: 30 }}
+                    url="https://twitter.com/dovhomilja"
+                  />
+                </div>
+                <div className="mr-2">
+                  <SocialIcon
+                    className="grayscale opacity-50"
+                    style={{ height: 30, width: 30 }}
+                    url="https://facebook/dovhomilja"
+                  />
+                </div>
+              </div>
             </div>
             <div>
-              <p>CopyRight</p>
+              <p>NoCopyRight Softbase s.r.o. - 2022</p>
             </div>
           </div>
-          <div className="w-1/2 border"></div>
+          <div className="w-1/2 m-5 p-5">
+            <h2 className="text-2xl py-5">Kontaktujte nás</h2>
+            <p className="font-bold">SoftBase s.r.o</p>
+
+            <div className="flex my-2">
+              <div className="mr-2">
+                <MapPinIcon className="h-6 w-6 text-gray-500 mr-1" />
+              </div>
+              <div>
+                <p>Švábova 772/18, Praha 5, 152 00</p>
+              </div>
+            </div>
+            <div className="flex my-2">
+              <div className="mr-2">
+                <PhoneIcon className="h-6 w-6 text-gray-500 mr-1" />
+              </div>
+              <div>
+                <p className="font-bold">+420733590059</p>
+              </div>
+            </div>
+            <div className="flex my-2">
+              <div className="mr-2">
+                <EnvelopeIcon className="h-6 w-6 text-gray-500 mr-1" />
+              </div>
+              <div>
+                <p className="font-bold">info@softbase.cz</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <Footer />

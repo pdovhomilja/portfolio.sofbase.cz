@@ -12,8 +12,12 @@ function Skill({}: Props) {
       transition={{ duration: 1.5 }}
       className="flex flex-col relative h-screen justify-evenly overflow-hidden"
     >
-      <div className="w-full h-full bg-black">
-        <h1 className="text-white">Skills</h1>
+      <div className="flex flex-col w-full h-full bg-black text-white">
+        <div className="h-2/3 border">
+          <h1 className="text-white">Skills</h1>
+        </div>
+        <div></div>
+        <div>Section 3</div>
       </div>
       <Footer />
     </motion.div>
