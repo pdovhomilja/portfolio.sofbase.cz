@@ -7,34 +7,34 @@ function Navbar({}: Props) {
   return (
     <div className="flex flex-col md:flex-row w-full h-24 md:justify-end">
       <Link
-        className="text-gray-300 pt-10 px-5 bg-black hover:bg-blue-700"
+        className="text-[#1f003d] pt-10 px-5 bg-[#00e893] hover:bg-[#00e893]"
         href="#Home"
       >
-        <p>Home</p>
+        Home
       </Link>
       <Link
         href="#AboutUs"
-        className="text-gray-300 pt-10 px-5 hover:bg-blue-700"
+        className="text-gray-300 pt-10 px-5 hover:bg-[#00e893] hover:text-[#1f003d]"
       >
-        <p>O nás</p>
+        O nás
       </Link>
       <Link
         href="#Projects"
-        className="text-gray-300 pt-10 px-5 hover:bg-blue-700"
+        className="text-gray-300 pt-10 px-5 hover:bg-[#00e893] hover:text-[#1f003d]"
       >
-        <p>Projekty</p>
+        Projekty
       </Link>
       <Link
         href="#Skills"
-        className="text-gray-300 pt-10 px-5 hover:bg-blue-700"
+        className="text-gray-300 pt-10 px-5 hover:bg-[#00e893] hover:text-[#1f003d]"
       >
-        <p>Skill</p>
+        Skill
       </Link>
       <Link
         href="#Contact"
-        className="text-gray-300 pt-10 px-5 hover:bg-blue-700"
+        className="text-gray-300 pt-10 px-5 hover:bg-[#00e893] hover:text-[#1f003d]"
       >
-        <p>Kontakt</p>
+        Kontakt
       </Link>
     </div>
   );

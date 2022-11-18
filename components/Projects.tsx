@@ -13,9 +13,7 @@ function Projects({}: Props) {
       transition={{ duration: 1.5 }}
       className="flex flex-col relative h-screen justify-evenly overflow-hidden"
     >
-      <div className="w-full h-full bg-black">
-        <h1 className="text-white">Projects</h1>
-      </div>
+      <h1 className="text-white">Projects</h1>
       <Footer />
     </motion.div>
   );

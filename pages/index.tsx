@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import AboutUs from "../components/AboutUs";
 import Contact from "../components/Contact";
 import MainPage from "../components/MainPage";
@@ -14,7 +13,7 @@ export default function Home() {
         <meta name="description" content="" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <section id="Home" className="snap-center">
+      <section id="Home" className="snap-start">
         <MainPage />
       </section>
       <section id="AboutUs" className="snap-start">

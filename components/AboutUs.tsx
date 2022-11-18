@@ -92,7 +92,7 @@ function AboutUs({}: Props) {
               .rwefnvText , TExt .rwefnvText , TExt .rwefnvText , TExt
               .rwefnvText , TExt .rwefnvfnvText , TExt .rwefnv
               <span className="text-black text-3xl p-2">&quot;</span>
-              <p className="mt-5 md:mt-10">Tomáš Kníže</p>
+              <span className="mt-5 md:mt-10">Tomáš Kníže</span>
               <span className="text-black font-bold">CEO</span>
             </p>
           </div>
