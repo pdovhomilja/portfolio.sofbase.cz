@@ -12,8 +12,7 @@ function MainPage({}: Props) {
       <div className="flex flex-row h-full w-full">
         <div className="w-1/3 bg-black text-white text-3xl pt-5">
           <h1 className="pl-5 text-sm md:pl-10 md:text-2xl xl:pl-20 xl:text-4xl">
-            {" "}
-            Softbase s.r.o.
+            <Image src="/sb_logo.png" alt="logo" width={300} height={50} />
           </h1>
           <div className="flex flex-row h-full items-center">
             <div className="absolute flex h-[60%] w-full">

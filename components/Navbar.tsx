@@ -5,7 +5,7 @@ type Props = {};
 
 function Navbar({}: Props) {
   return (
-    <div className="md:flex md:flex-row w-full h-24 justify-end">
+    <div className="flex flex-col md:flex-row w-full h-24 md:justify-end">
       <Link
         className="text-gray-300 pt-10 px-5 bg-black hover:bg-blue-700"
         href="#Home"
