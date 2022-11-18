@@ -86,12 +86,12 @@ function AboutUs({}: Props) {
               Some god Headline
             </h1>
             <p className="text-sm md:text-xl xl:text-2xl mt-10 md:mt-20">
-              <span className="text-black text-3xl p-2">"</span> Text , TExt
-              .rwefnvText , TExt .rweText , TExt .rwefnvText , TExt .rwefnvText
-              , TExt .rwefnvText , TExt .rwefnvText , TExt .rwefnvText , TExt
+              <span className="text-black text-3xl p-2">&quot;</span> Text ,
+              TExt .rwefnvText , TExt .rweText , TExt .rwefnvText , TExt
               .rwefnvText , TExt .rwefnvText , TExt .rwefnvText , TExt
-              .rwefnvfnvText , TExt .rwefnv
-              <span className="text-black text-3xl p-2">"</span>
+              .rwefnvText , TExt .rwefnvText , TExt .rwefnvText , TExt
+              .rwefnvText , TExt .rwefnvfnvText , TExt .rwefnv
+              <span className="text-black text-3xl p-2">&quot;</span>
               <p className="mt-5 md:mt-10">Tomáš Kníže</p>
               <span className="text-black font-bold">CEO</span>
             </p>
