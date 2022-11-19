@@ -18,7 +18,7 @@ function Contact({}: Props) {
       transition={{ duration: 1.5 }}
       className="flex flex-col w-full h-screen overflow-auto bg-black text-white border"
     >
-      <div className="h-full my-auto">
+      <div className="h-full my-auto flex flex-col flex-1">
         <section className="flex flex-col md:flex-row p-10">
           <div className=" flex flex-col md:flex-row w-full">
             <div className="w-full md:w-1/2 ">
