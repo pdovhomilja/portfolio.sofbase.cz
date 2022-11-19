@@ -16,9 +16,9 @@ function Contact({}: Props) {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-      className="flex flex-col h-screen w-full bg-black text-white"
+      className="flex flex-col w-full h-screen overflow-auto bg-black text-white border"
     >
-      <div className="h-full ">
+      <div className="h-full my-auto">
         <section className="flex flex-col md:flex-row p-10">
           <div className=" flex flex-col md:flex-row w-full">
             <div className="w-full md:w-1/2 ">
@@ -52,7 +52,7 @@ function Contact({}: Props) {
           </div>
         </section>
         <section className="flex flex-col md:flex-row p-10">
-          <div className="flex flex-col md:flex-row w-full">
+          <div className="flex flex-col md:flex-row w-full bg-[#1f003d] p-10">
             <div className="w-full md:w-1/2 ">
               <h1 className="font-bold text-xl py-5">Logo</h1>
               <div className="mt-5">
@@ -108,7 +108,7 @@ function Contact({}: Props) {
           </div>
         </section>
       </div>
-      <section className="h-28">
+      <section className="h-28 mt-auto">
         <Footer />
       </section>
     </motion.div>
