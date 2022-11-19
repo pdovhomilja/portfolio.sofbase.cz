@@ -11,7 +11,7 @@ function Projects({}: Props) {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-      className="flex flex-col relative h-screen justify-evenly overflow-hidden"
+      className="flex flex-col relative h-screen justify-between bg-black overflow-hidden"
     >
       <h1 className="text-white">Projects</h1>
       <Footer />
