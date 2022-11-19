@@ -7,7 +7,7 @@ type Props = {};
 function Contact({}: Props) {
   return (
     <div className="flex flex-col h-screen w-full bg-black text-white">
-      <div className="h-full border">
+      <div className="h-full overflow-auto">
         <section className="flex flex-col md:flex-row p-10">
           <div className="border flex flex-col md:flex-row w-full">
             <div className="border w-full md:w-1/2 ">1</div>
