@@ -6,7 +6,7 @@ type Props = {};
 
 function AboutUs({}: Props) {
   return (
-    <div className=" bg-black text-white h-screen w-full">
+    <div className=" bg-black text-white h-full w-full">
       <div className="p-10">
         <div className="flex flex-col">
           <div className="p-10">

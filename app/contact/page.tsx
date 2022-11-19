@@ -1,6 +1,7 @@
 import React from "react";
-import { motion } from "framer-motion";
-import Footer from "./Footer";
+import "../../styles/globals.css";
+import Footer from "../../components/Footer";
+
 import {
   EnvelopeIcon,
   MapPinIcon,
@@ -8,16 +9,13 @@ import {
 } from "@heroicons/react/24/outline";
 import { SocialIcon } from "react-social-icons";
 
+import { motion } from "framer-motion";
+
 type Props = {};
 
 function Contact({}: Props) {
   return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      transition={{ duration: 1.5 }}
-      className="flex flex-col h-screen w-full bg-black text-white"
-    >
+    <div className="flex flex-col h-screen w-full bg-black text-white">
       <div className="h-full ">
         <section className="flex flex-col md:flex-row p-10">
           <div className=" flex flex-col md:flex-row w-full">
@@ -111,7 +109,7 @@ function Contact({}: Props) {
       <section className="h-28">
         <Footer />
       </section>
-    </motion.div>
+    </div>
   );
 }
 
