@@ -1,13 +1,14 @@
 import React from "react";
+import "../../styles/globals.css";
+import Footer from "../../components/Footer";
 import { motion } from "framer-motion";
-import Footer from "./Footer";
 
 type Props = {};
 
 function AboutUs({}: Props) {
   return (
-    <div className=" bg-black text-white h-full w-full p-5">
-      <div className="flex flex-col p-2">
+    <div className="flex flex-col bg-black text-white h-screen w-full justify-center">
+      <div className="flex flex-col">
         <div>
           <h1 className="text-gray-500 text-xl md:text-2xl xl:text-6xl">
             O nás
@@ -64,31 +65,12 @@ function AboutUs({}: Props) {
           </div>
         </div>
       </div>
-      <div className=" flex flex-col md:flex-row h-full w-full justify-center">
-        <div className=" w-full">
-          <motion.img
-            className="object-contain"
-            src="https://imageio.forbes.com/specials-images/imageserve/62cc3ed6cb7f66dc60f09d7c/Abstract-Digital-Futuristic-Eye/960x0.jpg?format=jpg&width=960"
-            alt="some image"
-          />
-        </div>
-        <div className=" w-full bg-white text-black">
-          <div className="m-10">
-            <h1 className="font-bold text-2xl md:text-3xl xl:text-6xl">
-              Some god Headline
-            </h1>
-            <p className="text-sm md:text-xl xl:text-2xl mt-10 md:mt-20">
-              <span className="text-black text-3xl p-2">&quot;</span> Text ,
-              TExt .rwefnvText , TExt .rweText , TExt .rwefnvText , TExt
-              .rwefnvText , TExt .rwefnvText , TExt .rwefnvText , TExt
-              .rwefnvText , TExt .rwefnvText , TExt .rwefnvText , TExt
-              .rwefnvText , TExt .rwefnvfnvText , TExt .rwefnv
-              <span className="text-black text-3xl p-2">&quot;</span>
-              <span className="mt-5 md:mt-10">Tomáš Kníže</span>
-              <span className="text-black font-bold">CEO</span>
-            </p>
-          </div>
-        </div>
+      <div className=" flex flex-col md:flex-row my-auto h-full w-full justify-center">
+        <div className=" w-full">left</div>
+        <div className=" w-full">right</div>
+      </div>
+      <div className=" h-28">
+        <Footer />
       </div>
     </div>
   );
