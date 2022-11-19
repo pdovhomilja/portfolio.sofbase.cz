@@ -38,11 +38,10 @@ function Contact({}: Props) {
             </div>
           </div>
         </section>
+        <section className="h-28">
+          <Footer />
+        </section>
       </div>
-      <section className=""></section>
-      <section className="h-28">
-        <Footer />
-      </section>
     </motion.div>
   );
 }
