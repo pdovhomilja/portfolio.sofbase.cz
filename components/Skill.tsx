@@ -100,47 +100,69 @@ function Skill({}: Props) {
             </div>
           </div>
         </section>
-        <section className="flex flex-col md:flex-row p-10">
-          <div className="flex flex-col md:flex-row w-full justify-between items-center">
-            <DiJavascript className="w-14 h-14 grayscale  hover:grayscale-0" />
-            <FaHardHat className="w-14 h-14 hover:text-yellow-300" />
-            <SiTypescript className="w-14 h-14 grayscale  hover:grayscale-0" />
-            <SiSolidity className="w-14 h-14 grayscale  hover:grayscale-0" />
-            <Bitcoin
-              className="grayscale  hover:grayscale-0"
-              width={50}
-              height={50}
-            />
-            <Solana
-              className="grayscale  hover:grayscale-0"
-              width={50}
-              height={50}
-            />
-            <Polygon
-              className="grayscale  hover:grayscale-0"
-              width={50}
-              height={50}
-            />
-            <Ethereum
-              className="grayscale  hover:grayscale-0"
-              height={50}
-              width={50}
-            />
-            <Aave
-              className="grayscale  hover:grayscale-0"
-              width={50}
-              height={50}
-            />
-            <Litecoin
-              className="grayscale hover:grayscale-0"
-              width={50}
-              height={50}
-            />
-            <Metaverse
-              className="grayscale hover:grayscale-0 "
-              width={50}
-              height={50}
-            />
+        <section className="flex flex-col md:flex-row p-10 w-full">
+          <div className="flex flex-wrap flex-3 gap-5 md:flex-row w-full justify-between items-center">
+            <div>
+              <DiJavascript className="w-14 h-14 grayscale  hover:text-yellow-300" />
+            </div>
+            <div>
+              <FaHardHat className="w-14 h-14 hover:text-yellow-300" />
+            </div>
+            <div>
+              <SiTypescript className="w-14 h-14 hover:text-blue-600" />
+            </div>
+            <div>
+              <SiSolidity className="w-14 h-14 hover:text-gray-600" />
+            </div>
+            <div>
+              <Bitcoin
+                className="grayscale  hover:grayscale-0"
+                width={50}
+                height={50}
+              />
+            </div>
+            <div>
+              <Solana
+                className="grayscale  hover:grayscale-0"
+                width={50}
+                height={50}
+              />
+            </div>
+            <div>
+              <Polygon
+                className="grayscale  hover:grayscale-0"
+                width={50}
+                height={50}
+              />
+            </div>
+            <div>
+              <Ethereum
+                className="grayscale  hover:grayscale-0"
+                height={50}
+                width={50}
+              />
+            </div>
+            <div>
+              <Aave
+                className="grayscale  hover:grayscale-0"
+                width={50}
+                height={50}
+              />
+            </div>
+            <div>
+              <Litecoin
+                className="grayscale hover:grayscale-0"
+                width={50}
+                height={50}
+              />
+            </div>
+            <div>
+              <Metaverse
+                className="grayscale hover:grayscale-0 "
+                width={50}
+                height={50}
+              />
+            </div>
           </div>
         </section>
       </div>
