@@ -13,16 +13,16 @@ export default function Home() {
         <meta name="description" content="" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <section id="Home" className="">
+      <section id="Home" className="snap-start">
         <MainPage />
       </section>
-      <section id="AboutUs" className="">
+      <section id="AboutUs" className="snapt-start">
         <AboutUs />
       </section>
-      <section id="Projects" className="">
+      <section id="Projects" className="snap-start">
         <Projects />
       </section>
-      <section id="Skills" className="">
+      <section id="Skills" className="snap-start">
         <Skill />
       </section>
       <section id="Contact" className="snap-start">

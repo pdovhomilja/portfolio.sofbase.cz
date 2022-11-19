@@ -11,10 +11,19 @@ function Projects({}: Props) {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-      className="flex flex-col relative h-screen justify-between bg-black overflow-hidden"
+      className="flex flex-col h-screen w-full bg-black text-white"
     >
-      <h1 className="text-white">Projects</h1>
-      <Footer />
+      <div className="h-full overflow-auto">
+        <section className="flex flex-col md:flex-row p-10">
+          <div className="border flex flex-col md:flex-row w-full"></div>
+        </section>
+        <section className="flex flex-col md:flex-row p-10">
+          <div className="border flex flex-col md:flex-row w-full"></div>
+        </section>
+      </div>
+      <section className="h-28">
+        <Footer />
+      </section>
     </motion.div>
   );
 }

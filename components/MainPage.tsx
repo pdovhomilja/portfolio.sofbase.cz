@@ -13,7 +13,12 @@ function MainPage({}: Props) {
         <div className="flex flex-row justify-between items-center w-full h-28">
           <div>
             {/*Footer*/}
-            <Image src="/sb_logo.png" alt="logo" width={300} height={50} />
+            <Image
+              src="/images/sb_logo.png"
+              alt="logo"
+              width={300}
+              height={50}
+            />
           </div>
           <div className="">
             {/*Footer*/}

@@ -20,10 +20,10 @@ function Contact({}: Props) {
             <div className="border w-full md:w-1/2 ">2</div>
           </div>
         </section>
+        <section className="h-28">
+          <Footer />
+        </section>
       </div>
-      <section className="h-28">
-        <Footer />
-      </section>
     </div>
   );
 }
