@@ -18,12 +18,14 @@ function Navbar({}: Props) {
       >
         O nás
       </Link>
+      {/*
       <Link
         href="#Projects"
         className="text-gray-300 pt-10 px-5 hover:bg-[#00e893] hover:text-[#1f003d]"
       >
         Projekty
       </Link>
+  */}
       <Link
         href="#Skills"
         className="text-gray-300 pt-10 px-5 hover:bg-[#00e893] hover:text-[#1f003d]"

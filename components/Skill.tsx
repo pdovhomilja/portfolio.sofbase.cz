@@ -36,7 +36,9 @@ function Skill({}: Props) {
           <div className="flex flex-col md:flex-row w-full">
             <div className="flex flex-col md:flex-row w-full p-2">
               <div className="flex flex-col p-5">
-                <h1 className="font-bold text-2xl">Our Skills</h1>
+                <h1 className="font-bold text-2xl md:text-4xl xl:text-6xl">
+                  Our Skills
+                </h1>
                 <p className="text-gray-500 pt-5">
                   Some text about our skill set. Umíme navrhnout a vytvořit Web3
                   aplikace, mobilní aplikace vše v moderních technologiích
@@ -166,9 +168,7 @@ function Skill({}: Props) {
           </div>
         </section>
       </div>
-      <section className="h-28">
-        <Footer />
-      </section>
+      <section className="h-28"></section>
     </motion.div>
   );
 }

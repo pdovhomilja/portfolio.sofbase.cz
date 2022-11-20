@@ -7,7 +7,7 @@ import Skill from "../components/Skill";
 
 export default function Home() {
   return (
-    <div className="h-screen snap-y overflow-scroll scrollbar scrollbar-track-slate-500/10 scrollbar-thumb-yellow-600/40 bg-black">
+    <div className="h-screen snap-y snap-proximity overflow-auto bg-black">
       <Head>
         <title>SoftBase portfolio</title>
         <meta name="description" content="" />
@@ -16,12 +16,14 @@ export default function Home() {
       <section id="Home" className="snap-start">
         <MainPage />
       </section>
-      <section id="AboutUs" className="snapt-start">
+      <section id="AboutUs" className="snap-start">
         <AboutUs />
       </section>
+      {/*
       <section id="Projects" className="snap-start">
         <Projects />
       </section>
+  */}
       <section id="Skills" className="snap-start">
         <Skill />
       </section>

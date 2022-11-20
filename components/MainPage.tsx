@@ -8,9 +8,9 @@ type Props = {};
 
 function MainPage({}: Props) {
   return (
-    <div className="bg-black text-white w-screen h-screen">
+    <div className="bg-black text-white h-screen">
       <div className="h-full w-full flex flex-col justify-between">
-        <div className="flex flex-row justify-between items-center w-full h-28">
+        <div className="flex flex-col md:flex-row justify-between w-full">
           <div>
             {/*Footer*/}
             <Image
