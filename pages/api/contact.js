@@ -1,4 +1,4 @@
-export default async function (req, res) {
+export default async function Mailer(req, res) {
   require("dotenv").config();
 
   let nodemailer = require("nodemailer");
@@ -27,7 +27,7 @@ export default async function (req, res) {
   });
 
   const mailData = {
-    from: "Web form Softbase s.r.o.",
+    from: "info@softbase.cz",
     to: "info@softbase.cz",
     subject: `Message From ${req.body.name}`,
     text: req.body.message + " | Sent from: " + req.body.email,

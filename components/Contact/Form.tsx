@@ -1,3 +1,4 @@
+import Router, { useRouter } from "next/router";
 import React, { useState } from "react";
 
 type Props = {};
@@ -7,6 +8,7 @@ function Form({}: Props) {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [submitted, setSubmitted] = useState(false);
+  const router = useRouter();
 
   const handleSubmit = async (
     e: React.MouseEvent<HTMLButtonElement, MouseEvent>
@@ -27,6 +29,8 @@ function Form({}: Props) {
       },
       body: JSON.stringify(data),
     });
+    //alert("Váš formulář byl úspěšně odelán. Děkujeme");
+    router.push("/thankyou");
   };
   return (
     <form action="" className="p-5">
