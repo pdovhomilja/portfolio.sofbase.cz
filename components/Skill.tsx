@@ -175,7 +175,7 @@ function Skill({}: Props) {
             <picture>
               <img
                 src="/images/sb_remix.png"
-                className="object-fit"
+                className="object-fit p-10"
                 alt="Softbase Remix"
               />
             </picture>
