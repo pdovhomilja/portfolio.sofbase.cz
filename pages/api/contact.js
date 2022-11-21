@@ -29,7 +29,7 @@ export default async function Mailer(req, res) {
   const mailData = {
     from: "info@softbase.cz",
     to: "info@softbase.cz",
-    subject: `Message From ${req.body.name}`,
+    subject: `Message From ${req.body.name} - ${req.body.phone}`,
     text: req.body.message + " | Sent from: " + req.body.email,
     html: `<div>${req.body.message}</div><p>Sent from: ${req.body.email}</p>`,
   };

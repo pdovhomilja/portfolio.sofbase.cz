@@ -6,6 +6,7 @@ type Props = {};
 function Form({}: Props) {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
   const [submitted, setSubmitted] = useState(false);
   const router = useRouter();
@@ -18,6 +19,7 @@ function Form({}: Props) {
     let data = {
       name,
       email,
+      phone,
       message,
     };
     console.log(data);
@@ -43,7 +45,7 @@ function Form({}: Props) {
         name="name"
         className="rounded-md w-full pr-6 bg-gray-500"
       />
-      <p className="font-bold text-white pb-2">E-mail</p>
+      <p className="font-bold text-xl text-white py-2">E-mail</p>
       <input
         type="text"
         onChange={(e) => {
@@ -52,7 +54,16 @@ function Form({}: Props) {
         name="email"
         className="rounded-md w-full pr-6 bg-gray-500"
       />
-      <p className="font-bold text-white pb-2">Message</p>
+      <p className="font-bold text-xl text-white py-2">Phone</p>
+      <input
+        type="text"
+        onChange={(e) => {
+          setPhone(e.target.value);
+        }}
+        name="phone"
+        className="rounded-md w-full pr-6 bg-gray-500"
+      />
+      <p className="font-bold text-xl text-white py-2">Message</p>
       <textarea
         onChange={(e) => {
           setMessage(e.target.value);

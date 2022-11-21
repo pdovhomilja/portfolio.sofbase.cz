@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import { SocialIcon } from "react-social-icons";
 
@@ -6,7 +7,7 @@ type Props = {};
 function Socials({}: Props) {
   return (
     <>
-      <h1 className="font-bold text-xl py-5">Logo</h1>
+      <Image src="/images/sb_logo_2.png" width={200} height={100} alt="logo" />
       <div className="mt-5">
         <div className="flex ">
           <div className="mr-2">
@@ -20,7 +21,7 @@ function Socials({}: Props) {
             <SocialIcon
               className="grayscale opacity-50"
               style={{ height: 30, width: 30 }}
-              url="https://twitter.com/softbase"
+              url="https://twitter.com/SoftBaseCZ"
             />
           </div>
         </div>

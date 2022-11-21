@@ -10,7 +10,7 @@ function ThankYou({}: Props) {
       <div className="items-center justify-center">
         <h1 className="text-6xl justify-center items-center">
           Hi there, we just want to tell you{" "}
-          <span className="text-blue-800">thank you!</span>
+          <span className="text-blue-800 animate-pulse">,thank you!</span>
         </h1>
       </div>
       <div className="items-end">
@@ -25,6 +25,7 @@ function ThankYou({}: Props) {
           Mint our welcome NFT
         </Link>
       </div>
+      <div></div>
     </div>
   );
 }
