@@ -167,6 +167,20 @@ function Skill({}: Props) {
             </div>
           </div>
         </section>
+        <section>
+          <hr className="opacity-50" />
+        </section>
+        <section>
+          <div className="pt-5 opacity-25 hover:opacity-100">
+            <picture>
+              <img
+                src="/images/sb_remix.png"
+                className="object-fit"
+                alt="Softbase Remix"
+              />
+            </picture>
+          </div>
+        </section>
       </div>
       <section className="h-28"></section>
     </motion.div>
