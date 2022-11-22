@@ -9,14 +9,15 @@ import {
   Aave,
   Litecoin,
   Metaverse,
+  BinanceCoin,
 } from "@thirdweb-dev/chain-icons";
 import {
   ClipboardDocumentIcon,
   GlobeEuropeAfricaIcon,
   PresentationChartBarIcon,
 } from "@heroicons/react/24/outline";
-import { DiJavascript } from "react-icons/di";
-import { SiTypescript, SiSolidity } from "react-icons/si";
+import { DiJavascript, DiReact } from "react-icons/di";
+import { SiTypescript, SiIpfs, SiNextdotjs, SiSolidity } from "react-icons/si";
 import { FaHardHat } from "react-icons/fa";
 
 import Image from "next/image";
@@ -105,10 +106,16 @@ function Skill({}: Props) {
         <section className="flex flex-col md:flex-row p-10 w-full">
           <div className="flex flex-wrap flex-3 gap-5 md:flex-row w-full justify-between items-center">
             <div>
-              <DiJavascript className="w-14 h-14 grayscale  hover:text-yellow-300" />
+              <DiJavascript className="w-14 h-14 hover:text-yellow-300" />
+            </div>
+            <div>
+              <DiReact className="w-14 h-14 hover:text-blue-500" />
             </div>
             <div>
               <FaHardHat className="w-14 h-14 hover:text-yellow-300" />
+            </div>
+            <div>
+              <SiNextdotjs className="w-14 h-14 hover:text-black" />
             </div>
             <div>
               <SiTypescript className="w-14 h-14 hover:text-blue-600" />
@@ -117,7 +124,17 @@ function Skill({}: Props) {
               <SiSolidity className="w-14 h-14 hover:text-gray-600" />
             </div>
             <div>
+              <SiIpfs className="w-14 h-14 hover:text-gray-600" />
+            </div>
+            <div>
               <Bitcoin
+                className="grayscale  hover:grayscale-0"
+                width={50}
+                height={50}
+              />
+            </div>
+            <div>
+              <BinanceCoin
                 className="grayscale  hover:grayscale-0"
                 width={50}
                 height={50}

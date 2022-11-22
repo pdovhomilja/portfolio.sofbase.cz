@@ -48,15 +48,15 @@ function MainPage({}: Props) {
                     We are SoftBase
                   </h1>
                   <h2 className="text-xl mt-3 md:text-4xl xl:text-6xl">
-                    best Web3 agency in the world
+                    Web3 agency operating from Prague
                   </h2>
                   <h3 className="text-2xl mt-3 text-gray-600 md:text-4xl xl:text-5xl">
-                    operating from Prague
+                    with strong business & technical skills
                   </h3>
                   <p className="text-md mt-8 md:text-xl xl:text-2xl">
-                    Naším posláním je tvořit lepší svět díky novým technologiím.
-                    Věříme, že Web 3 propojí všechny napřímo a vše bude rychlé a
-                    přímočaré.
+                    We bring incredible things in Web3 space - Blockchain, Lens
+                    protocol, NFT, smart contract. All topics we love and
+                    successfully manage projects for our clients
                   </p>
                 </div>
               </div>
