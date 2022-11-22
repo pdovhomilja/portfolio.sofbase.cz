@@ -9,8 +9,8 @@ function LetsTalk({}: Props) {
         Lets talk
       </h1>
       <h2 className="text-gray-600 mt-5 text-xl md:text-3xl xl:text-4xl ">
-        Now that you know a lot about me, let me know if you are interested to
-        work with me.
+        Our very first consultation with you will be for free. It is our
+        investment to your business. We are ready for your ideas.
       </h2>
     </>
   );

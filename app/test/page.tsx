@@ -19,7 +19,7 @@ function Test({}: Props) {
             <div className="flex flex-col border py-10 w-1/3 justify-center">
               <div className="border -mr-32 h-full">img</div>
             </div>
-            <div>Right</div>
+            <div className="flex justify-center "></div>
           </div>
         </div>
         {/* Footer */}

@@ -10,14 +10,14 @@ type Props = {};
 function Contacts({}: Props) {
   return (
     <>
-      <h2 className="text-2xl py-5">Kontaktujte nás</h2>
+      <h2 className="text-2xl py-5">Contacts</h2>
       <p className="font-bold">SoftBase s.r.o</p>
       <div className="flex my-2">
         <div className="mr-2">
           <MapPinIcon className="h-6 w-6 text-gray-500 mr-1" />
         </div>
         <div className="mt-2">
-          <p>Švábova 772/18, Praha 5, 152 00</p>
+          <p>Švábova 772/18, Prague 5, 152 00</p>
         </div>
       </div>
       <div className="flex my-2">

@@ -6,52 +6,49 @@ type Props = {};
 
 function AboutUs({}: Props) {
   return (
-    <div className=" bg-black text-white h-full w-full">
+    <div className=" bg-black text-white h-screen w-full">
       <div className="p-10">
         <div className="flex flex-col">
           <div className="p-5">
             <h1 className="text-white font-bold text-xl md:text-2xl xl:text-6xl">
-              About Us
+              Mission
             </h1>
+            <p className="text-gray-500">
+              make the most of the potential of decentralized systems in order
+              to...
+            </p>
           </div>
           <div className="flex flex-col md:flex-row justify-center items-start w-full h-full p-10">
             <div className=" w-full h-full">
               <p className="text-gray-200 text-2xl md:text-4xl xl:text-6xl ">
                 <span className="text-teal-800 pr-2">01</span>
-                Vision
               </p>
-              <h1 className="text-gray-500 text-lg md:text-xl md:py-5 xl:text-2xl">
-                Freedom & Choice & Secure data
+              <h1 className="text-gray-500 text-lg md:text-xl md:p-2 xl:text-2xl">
+                emancipate everybody
               </h1>
-              <p className="text-white text-justify text-sm md:text-lg">
-                Meximalize benefits of open-source, decentralized data owned by
-                You, Everything transparent and safe.
+              <p className="text-white p-5 text-justify text-sm md:text-lg">
+                to emancipate everyone who is willing to step out of their
+                comfort zone and who has found their mission in software
+                development
               </p>
             </div>
             <div className=" w-full">
               <p className="text-gray-200 text-2xl md:text-4xl xl:text-6xl ">
                 <span className="text-rose-800 pr-2">02</span>
-                Mission
               </p>
-              <h1 className="text-gray-500 text-lg md:text-xl md:p-5 xl:text-2xl">
-                make the most of the potential of decentralized systems in order
-                to ...
+              <h1 className="text-gray-500 text-lg md:text-xl md:p-2 xl:text-2xl">
+                connect
               </h1>
-              <p className="text-white text-justify text-sm md:text-lg xl:text-xl p-5">
-                <span className="font-bold pr-2 text-gray-500">emancipate</span>{" "}
-                everyone who is willing to step out of their comfort zone and
-                who has found their mission in software development.
-                <span className="font-bold p-2 text-gray-500">connect</span>not
-                only people, but also their businesses thanks to the new
+              <p className="text-white p-5 text-justify text-sm md:text-lg">
+                not only people, but also their businesses thanks to the new
                 possibilities of web3 and decentralized applications
               </p>
             </div>
             <div className=" w-full">
               <p className="text-gray-200 text-2xl md:text-4xl xl:text-6xl ">
                 <span className="text-violet-800 pr-2">03</span>
-                Goal
               </p>
-              <h1 className="text-gray-500 text-lg md:text-xl md:py-5 xl:text-2xl">
+              <h1 className="text-gray-500 text-lg md:text-xl md:p-2 xl:text-2xl">
                 become a leader
               </h1>
               <p className="text-white text-justify text-sm md:text-lg xl:text-xl p-5">

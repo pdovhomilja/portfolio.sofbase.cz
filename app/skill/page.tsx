@@ -1,5 +1,7 @@
 import React from "react";
-import { motion } from "framer-motion";
+import "../../styles/globals.css";
+import Footer from "../../components/Footer";
+
 import {
   Ethereum,
   Polygon,
@@ -18,19 +20,11 @@ import {
 import { DiJavascript, DiReact } from "react-icons/di";
 import { SiTypescript, SiIpfs, SiNextdotjs, SiSolidity } from "react-icons/si";
 import { FaHardHat } from "react-icons/fa";
-
-import Image from "next/image";
-
 type Props = {};
 
 function Skill({}: Props) {
   return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      transition={{ duration: 1.5 }}
-      className="flex flex-col h-screen w-full bg-black text-white"
-    >
+    <div className="flex flex-col h-screen w-full bg-black text-white">
       <div className="h-full overflow-auto">
         <section className="flex flex-col md:flex-row p-10">
           <div className="flex flex-col md:flex-row w-full">
@@ -200,8 +194,11 @@ function Skill({}: Props) {
             <div className="w-full md:w-1/2 "></div>
           </div>
         </section>
+        <section className="h-28">
+          <Footer />
+        </section>
       </div>
-    </motion.div>
+    </div>
   );
 }
 

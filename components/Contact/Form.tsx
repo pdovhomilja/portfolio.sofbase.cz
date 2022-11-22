@@ -77,7 +77,7 @@ function Form({}: Props) {
         }}
         className="bg-[#00e893] p-3 mt-3 font-bold text-[#1f003d] rounded-md"
       >
-        Click to enter web3 world
+        Click to enter web3 world with Softbase
       </button>
     </form>
   );
