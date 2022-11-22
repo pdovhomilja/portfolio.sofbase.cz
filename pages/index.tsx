@@ -11,7 +11,7 @@ export default function Home() {
       <Head>
         <title>SoftBase - Web3 agency</title>
         <meta name="description" content="" />
-        <link rel="icon" href="/images/favicon.png" />
+        <link rel="icon" href="/images/favicon.ico" />
       </Head>
       <section id="Home" className="snap-start">
         <MainPage />
