@@ -29,7 +29,7 @@ function Contact({}: Props) {
           </div>
         </section>
         <section className="flex flex-col md:flex-row p-10 ">
-          <div className="flex flex-col md:flex-row w-full bg-[#1f003d] p-10">
+          <div className="flex flex-col md:flex-row w-full bg-[#1f003d] p-10  rounded-br-xl rounded-tl-xl">
             <div className="w-full md:w-1/2 ">
               <Socials />
             </div>
