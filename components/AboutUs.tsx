@@ -87,7 +87,7 @@ function AboutUs({}: Props) {
                   <span className="text-black text-3xl p-2">&quot;</span>
                   <br />
                   <br />
-                  <span className="mt-5 md:mt-10">Tomáš Kníže</span>
+                  <span className="mt-5 md:mt-10">Tomáš Knížek</span>
                   <br />
                   <br />
                   <span className="text-black font-bold">CEO</span>

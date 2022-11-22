@@ -16,7 +16,7 @@ function Navbar({}: Props) {
         href="#AboutUs"
         className="text-gray-300 pt-10 px-5 hover:bg-[#00e893] hover:text-[#1f003d]"
       >
-        O nás
+        Mission
       </Link>
       {/*
       <Link
@@ -30,13 +30,13 @@ function Navbar({}: Props) {
         href="#Skills"
         className="text-gray-300 pt-10 px-5 hover:bg-[#00e893] hover:text-[#1f003d]"
       >
-        Skill
+        Skillset
       </Link>
       <Link
         href="#Contact"
         className="text-gray-300 pt-10 px-5 hover:bg-[#00e893] hover:text-[#1f003d]"
       >
-        Kontakt
+        Contact
       </Link>
     </div>
   );
