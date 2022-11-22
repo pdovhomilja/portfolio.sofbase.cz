@@ -7,7 +7,7 @@ type Props = {};
 function Socials({}: Props) {
   return (
     <>
-      <Image src="/images/sb_logo_2.png" width={200} height={100} alt="logo" />
+      <Image src="/images/sb_rgb_logo.png" width={200} height={100} alt="logo" />
       <div className="mt-5">
         <div className="flex ">
           <div className="mr-2">

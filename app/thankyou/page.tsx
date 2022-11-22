@@ -7,14 +7,20 @@ type Props = {};
 function ThankYou({}: Props) {
   return (
     <div className="w-full h-screen bg-black text-white flex flex-col justify-center items-center">
-      <div className="items-center justify-center">
+              <div className="pb-10">
+          <picture>
+            <img src="/images/sb_rgb_logo.png" />
+          </picture>
+        </div>
+      <div className="items-center justify-center pb-10">
+
         <h1 className="text-6xl justify-center items-center">
           Hi there, we just want to tell you{" "}
           <span className="text-blue-800 animate-pulse">,thank you!</span>
         </h1>
       </div>
       <div className="items-end">
-        <h2 className="text-4xl">Team Softbase</h2>
+        <h2 className="text-4xl pb-10">Team Softbase</h2>
       </div>
       <div className="pt-5">
         <Link href="/" className="bg-white rounded-lg text-black p-2 m-2">

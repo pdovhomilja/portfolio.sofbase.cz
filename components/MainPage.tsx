@@ -11,10 +11,10 @@ function MainPage({}: Props) {
     <div className="bg-black text-white h-screen">
       <div className="h-full w-full flex flex-col justify-between">
         <div className="flex flex-col md:flex-row justify-between w-full">
-          <div>
+          <div className="p-5">
             {/*Footer*/}
             <Image
-              src="/images/sb_logo.png"
+              src="/images/sb_rgb_logo.png"
               alt="logo"
               width={300}
               height={50}
