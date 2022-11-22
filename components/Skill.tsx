@@ -29,9 +29,9 @@ function Skill({}: Props) {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-      className="flex flex-col h-screen w-full bg-black text-white"
+      className="flex flex-col h-full w-full bg-black text-white"
     >
-      <div className="h-full overflow-auto">
+      <div className="h-full">
         <section className="flex flex-col md:flex-row p-10">
           <div className="flex flex-col md:flex-row w-full">
             <div className="w-full">
