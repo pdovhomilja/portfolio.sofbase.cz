@@ -9,9 +9,9 @@ export default function Home() {
   return (
     <div className="h-screen snap-y snap-proximity overflow-auto bg-black">
       <Head>
-        <title>SoftBase portfolio</title>
+        <title>SoftBase - Web3 agency</title>
         <meta name="description" content="" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/images/favicon.png" />
       </Head>
       <section id="Home" className="snap-start">
         <MainPage />
