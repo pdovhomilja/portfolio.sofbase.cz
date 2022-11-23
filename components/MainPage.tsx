@@ -31,7 +31,7 @@ function MainPage({}: Props) {
             <div className="flex flex-col bg-black py-10 w-1/3 justify-center">
               <div className="flex -mr-32 h-full items-center justify-center">
                 <motion.img
-                  src="https://www.freecodecamp.org/news/content/images/size/w2000/2021/05/web3-future-of-web.jpg"
+                  src="/images/web3-future-of-web.jpg"
                   initial={{ x: -200, opacity: 0 }}
                   transition={{ duration: 1.2 }}
                   whileInView={{ opacity: 1, x: 0 }}

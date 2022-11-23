@@ -68,7 +68,7 @@ function AboutUs({}: Props) {
             <div className=" w-full">
               <motion.img
                 className="object-contain rounded-br-lg"
-                src="https://imageio.forbes.com/specials-images/imageserve/62cc3ed6cb7f66dc60f09d7c/Abstract-Digital-Futuristic-Eye/960x0.jpg?format=jpg&width=960"
+                src="/images/web3_eye.jpeg"
                 alt="some image"
               />
             </div>
