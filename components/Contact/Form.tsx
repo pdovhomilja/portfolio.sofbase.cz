@@ -36,41 +36,49 @@ function Form({}: Props) {
   };
   return (
     <form action="" className="p-5">
-      <p className="font-bold text-xl text-white pb-2">Name</p>
-      <input
-        type="text"
-        onChange={(e) => {
-          setName(e.target.value);
-        }}
-        name="name"
-        className="rounded-md w-full pr-6 bg-gray-500"
-      />
-      <p className="font-bold text-xl text-white py-2">E-mail</p>
-      <input
-        type="text"
-        onChange={(e) => {
-          setEmail(e.target.value);
-        }}
-        name="email"
-        className="rounded-md w-full pr-6 bg-gray-500"
-      />
-      <p className="font-bold text-xl text-white py-2">Phone</p>
-      <input
-        type="text"
-        onChange={(e) => {
-          setPhone(e.target.value);
-        }}
-        name="phone"
-        className="rounded-md w-full pr-6 bg-gray-500"
-      />
-      <p className="font-bold text-xl text-white py-2">Message</p>
-      <textarea
-        onChange={(e) => {
-          setMessage(e.target.value);
-        }}
-        name="message"
-        className="rounded-md w-full pr-6 bg-gray-500"
-      />
+      <label className="font-bold text-xl text-white pb-2">
+        Name
+        <input
+          type="text"
+          onChange={(e) => {
+            setName(e.target.value);
+          }}
+          name="name"
+          className="rounded-md w-full pr-6 bg-gray-500"
+        />
+      </label>
+      <label className="font-bold text-xl text-white py-2">
+        E-mail
+        <input
+          type="text"
+          onChange={(e) => {
+            setEmail(e.target.value);
+          }}
+          name="email"
+          className="rounded-md w-full pr-6 bg-gray-500"
+        />
+      </label>
+      <label className="font-bold text-xl text-white py-2">
+        Phone
+        <input
+          type="text"
+          onChange={(e) => {
+            setPhone(e.target.value);
+          }}
+          name="phone"
+          className="rounded-md w-full pr-6 bg-gray-500"
+        />
+      </label>
+      <label className="font-bold text-xl text-white py-2">
+        Message
+        <textarea
+          onChange={(e) => {
+            setMessage(e.target.value);
+          }}
+          name="message"
+          className="rounded-md w-full pr-6 bg-gray-500"
+        />
+      </label>
       <button
         onClick={(e) => {
           handleSubmit(e);

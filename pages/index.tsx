@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { Html } from "next/document";
 import AboutUs from "../components/AboutUs";
 import Contact from "../components/Contact";
 import MainPage from "../components/MainPage";
@@ -7,29 +8,31 @@ import Skill from "../components/Skill";
 
 export default function Home() {
   return (
-    <div className="h-screen snap-y snap-proximity overflow-auto bg-black">
+    <>
       <Head>
         <title>SoftBase - Web3 agency</title>
         <meta name="description" content="" />
-        <link rel="icon" href="/images/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
-      <section id="Home" className="snap-start">
-        <MainPage />
-      </section>
-      <section id="AboutUs" className="snap-start">
-        <AboutUs />
-      </section>
-      {/*
+      <div className="h-screen snap-y snap-proximity overflow-auto bg-black">
+        <section id="Home" className="snap-start">
+          <MainPage />
+        </section>
+        <section id="AboutUs" className="snap-start">
+          <AboutUs />
+        </section>
+        {/*
       <section id="Projects" className="snap-start">
         <Projects />
       </section>
   */}
-      <section id="Skills" className="snap-start">
-        <Skill />
-      </section>
-      <section id="Contact" className="snap-start">
-        <Contact />
-      </section>
-    </div>
+        <section id="Skills" className="snap-start">
+          <Skill />
+        </section>
+        <section id="Contact" className="snap-start">
+          <Contact />
+        </section>
+      </div>
+    </>
   );
 }
