@@ -1,9 +1,8 @@
 import Head from "next/head";
-import { Html } from "next/document";
 import AboutUs from "../components/AboutUs";
 import Contact from "../components/Contact";
 import MainPage from "../components/MainPage";
-import Projects from "../components/Projects";
+//import Projects from "../components/Projects";
 import Skill from "../components/Skill";
 
 export default function Home() {
