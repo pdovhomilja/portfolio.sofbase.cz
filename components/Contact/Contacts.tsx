@@ -6,6 +6,7 @@ import {
   CurrencyEuroIcon,
   BuildingOfficeIcon,
 } from "@heroicons/react/24/outline";
+import Link from "next/link";
 
 type Props = {};
 
@@ -27,7 +28,7 @@ function Contacts({}: Props) {
           <PhoneIcon className="h-6 w-6 text-gray-500 mr-1" />
         </div>
         <div className="mt-2">
-          <p className="font-bold">+420733590059</p>
+          <p className="font-bold">+420 774 960 960</p>
         </div>
       </div>
       <div className="flex my-2">
@@ -35,7 +36,9 @@ function Contacts({}: Props) {
           <EnvelopeIcon className="h-6 w-6 text-gray-500 mr-1" />
         </div>
         <div className="mt-2">
-          <p className="font-bold">info@softbase.cz</p>
+          <Link href={"mailto:hi@softbase.dev"} className="font-bold">
+            hi@softbase.dev
+          </Link>
         </div>
       </div>
       <div className="flex my-2">
