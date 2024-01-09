@@ -68,8 +68,8 @@ function AboutUs({}: Props) {
             <div className=" w-full">
               <motion.img
                 className="object-contain rounded-br-lg"
-                src="/images/web3_eye.jpeg"
-                alt="some image"
+                src="/images/web3-eye.webp"
+                alt=""
               />
             </div>
             <div className=" w-full bg-white text-black rounded-br-xl">
@@ -87,10 +87,6 @@ function AboutUs({}: Props) {
                   <span className="text-black text-3xl p-2">&quot;</span>
                   <br />
                   <br />
-                  <span className="mt-5 md:mt-10">Tomáš Knížek</span>
-                  <br />
-                  <br />
-                  <span className="text-black font-bold">CEO</span>
                 </p>
               </div>
             </div>

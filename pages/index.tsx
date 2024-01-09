@@ -2,7 +2,6 @@ import Head from "next/head";
 import AboutUs from "../components/AboutUs";
 import Contact from "../components/Contact";
 import MainPage from "../components/MainPage";
-//import Projects from "../components/Projects";
 import Skill from "../components/Skill";
 
 export default function Home() {

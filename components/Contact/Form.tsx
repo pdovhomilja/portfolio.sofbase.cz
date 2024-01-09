@@ -15,14 +15,14 @@ function Form({}: Props) {
     e: React.MouseEvent<HTMLButtonElement, MouseEvent>
   ) => {
     e.preventDefault();
-    console.log("Sending");
+    //console.log("Sending");
     let data = {
       name,
       email,
       phone,
       message,
     };
-    console.log(data);
+    //console.log(data);
     fetch("/api/contact", {
       method: "POST",
       headers: {
@@ -31,8 +31,8 @@ function Form({}: Props) {
       },
       body: JSON.stringify(data),
     });
-    //alert("Váš formulář byl úspěšně odelán. Děkujeme");
-    router.push("/thankyou");
+
+    router.push("/");
   };
   return (
     <form action="" className="p-5">
