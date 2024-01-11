@@ -1,14 +1,13 @@
-import Router, { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 import React, { useState } from "react";
 
-type Props = {};
-
-function Form({}: Props) {
+function Form() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
-  const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
+
   const router = useRouter();
 
   const handleSubmit = async (
@@ -22,17 +21,27 @@ function Form({}: Props) {
       phone,
       message,
     };
+    setLoading(true);
     //console.log(data);
-    fetch("/api/contact", {
-      method: "POST",
-      headers: {
-        Accept: "application/json, text/plain, */*",
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(data),
-    });
-
-    router.push("/");
+    try {
+      await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          Accept: "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
+    } catch (error) {
+      console.log("Error from contact form" + error);
+    } finally {
+      setName("");
+      setEmail("");
+      setPhone("");
+      setMessage("");
+      setLoading(false);
+      router.refresh();
+    }
   };
   return (
     <form action="" className="p-5">
@@ -55,6 +64,7 @@ function Form({}: Props) {
             setEmail(e.target.value);
           }}
           name="email"
+          defaultValue={email}
           className="rounded-md w-full pr-6 bg-gray-500"
         />
       </label>
@@ -85,7 +95,14 @@ function Form({}: Props) {
         }}
         className="bg-[#00e893] p-3 mt-3 font-bold text-[#1f003d] rounded-md"
       >
-        Click to enter web3 world with Softbase
+        {loading ? (
+          <div className="flex justify-center items-center space-x-2">
+            <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white"></div>
+            <div>Sending...</div>
+          </div>
+        ) : (
+          "Click to enter web3 world with Softbase"
+        )}
       </button>
     </form>
   );

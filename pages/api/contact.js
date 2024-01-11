@@ -46,12 +46,6 @@ export default async function Mailer(req, res) {
       }
     });
   });
-  /*
-    transporter.sendMail(mailData, function (err, info) {
-      if (err) console.log(err);
-      else console.log(info);
-    });
-   */
-  console.log(req.body);
+
   res.send("success");
 }

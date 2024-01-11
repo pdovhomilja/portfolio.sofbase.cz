@@ -1,5 +1,5 @@
-import "../styles/globals.css";
-import "../styles/test.css";
+import "../app/globals.css";
+
 import { GoogleAnalytics } from "nextjs-google-analytics";
 import { Analytics } from "@vercel/analytics/react";
 
